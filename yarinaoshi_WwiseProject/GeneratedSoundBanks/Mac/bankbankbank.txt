@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3918371061	SoundMainsa			\Default Work Unit\SoundMainsa	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	129458366	ブースター	.cache\A0\{A0EBD785-CA36-4301-9C0F-044009A4FFC1}.wem		\Containers\Default Work Unit\ブースター		1812576
+

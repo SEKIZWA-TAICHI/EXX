@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1523149678",
+    "Type": "Bus",
+    "GUID": "{4397A36C-EF62-47B6-9B7C-A7C8305D6DFF}",
+    "Language": "SFX",
+    "Hash": "{2F4B9934-FA23-DE04-9F74-0F2BB3C51C4A}",
+    "ObjectPath": "reflection",
+    "ShortName": "reflection",
+    "Path": "Bus/reflection.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "569426295",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{8FFD42A8-0399-41DE-81D0-F7BC0DCE6B53}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "632183553",
+       "Name": "Flanger (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection\\[Effect Slot [1]: (Flanger)]\\Flanger (Custom)",
+       "GUID": "{01663A12-6138-4C7C-B6B5-208ABDAC604D}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1523149678",
+      "Name": "reflection",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection",
+      "GUID": "{4397A36C-EF62-47B6-9B7C-A7C8305D6DFF}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "569426295"
+        },
+        {
+         "Id": "632183553"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9CC478C0-3D41-CD27-4B44-4B87B9AE09E5}"
+ }
+}

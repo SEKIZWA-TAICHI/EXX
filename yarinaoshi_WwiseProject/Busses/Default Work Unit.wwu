@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}" SchemaVersion="133">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{18E41531-A93C-4E55-A3C9-C0981A8B574D}" WorkUnitID="{5BECCFE9-11E9-4816-9859-55A6915FA30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Aux_NarrowRoom" ID="{996A401B-446B-4D0F-AD04-E97D1AFCD491}">
+							<PropertyList>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="New_Auxiliary_Bus" ID="{8BC09BB6-437E-42A6-8BD6-6519A5FF9FE6}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AuxBus Name="New_Auxiliary_Bus_01" ID="{26D6B947-F6AF-4457-A7FC-52D50F160DDE}"/>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{F28DF2C3-3207-4BEE-9CA6-2B75F62BC22E}" ShortID="65996912">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="New_RoomVerb" ID="{7C05A794-0AEB-4DD7-A9F6-8D4379A5AFB8}" WorkUnitID="{414F05BB-2E1A-4A03-8B17-78508CA0FE70}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="Aux_WideRoom" ID="{C31A807D-1ABA-493A-84F0-00E4F1686972}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{C73B4AE5-423E-4C43-8A77-31D5FACECFD1}" ShortID="419034201">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Wide_Roomverb" ID="{CD90F343-2508-4261-A66D-090313AE56E3}" WorkUnitID="{414F05BB-2E1A-4A03-8B17-78508CA0FE70}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="reflection" ID="{4397A36C-EF62-47B6-9B7C-A7C8305D6DFF}">
+							<ChildrenList>
+								<AuxBus Name="New_Auxiliary_Bus" ID="{8BC09BB6-437E-42A6-8BD6-6519A5FF9FE6}">
+									<ReferenceList>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="New_Auxiliary_Bus_01" ID="{26D6B947-F6AF-4457-A7FC-52D50F160DDE}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="New_Auxiliary_Bus_02" ID="{F2B99B2D-F5E1-455E-95C7-75C1B3A38A86}"/>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{FDBF0E0C-DAAC-4517-ABF5-9B087243099A}" ShortID="925913674">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="RoomVerb (Custom)" ID="{FC100BB1-90A0-443E-AA3C-2AB357DA92D1}" ShortID="53650047" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+									<EffectSlot Name="" ID="{C9C4C2E3-7C4C-434A-A159-DCEA16528040}" ShortID="658438113"/>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

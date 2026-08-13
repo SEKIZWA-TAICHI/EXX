@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "602562200",
+    "Type": "Bus",
+    "GUID": "{C31A807D-1ABA-493A-84F0-00E4F1686972}",
+    "Language": "SFX",
+    "Hash": "{5DB3BA16-B6EC-A097-0496-CB3E15651294}",
+    "ObjectPath": "Aux_WideRoom",
+    "ShortName": "Aux_WideRoom",
+    "Path": "Bus/Aux_WideRoom.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2347715673",
+       "Name": "Wide_Roomverb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Wide_Roomverb",
+       "GUID": "{CD90F343-2508-4261-A66D-090313AE56E3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "602562200",
+      "Name": "Aux_WideRoom",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Aux_WideRoom",
+      "GUID": "{C31A807D-1ABA-493A-84F0-00E4F1686972}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2347715673"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{41B0FA64-17B6-8800-3141-1817703687AE}"
+ }
+}

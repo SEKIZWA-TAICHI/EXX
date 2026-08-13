@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2805531327",
+    "Type": "User",
+    "GUID": "{62F6EA7F-051A-4DED-BC2A-6B448283B5DF}",
+    "Language": "SFX",
+    "Hash": "{3911AF14-08C5-1DC1-EA64-9085DA4C05B8}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\bankbankbank",
+    "ShortName": "bankbankbank",
+    "Path": "bankbankbank.bnk",
+    "Media": [
+     {
+      "Id": "129458366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ブースター.1.wav",
+      "CachePath": "A0/{A0EBD785-CA36-4301-9C0F-044009A4FFC1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3918371061",
+      "Name": "SoundMainsa",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundMainsa",
+      "GUID": "{0A75743F-F5E9-419B-8AB8-6041DEA77044}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "129458366"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1523149678",
+        "Name": "reflection",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection",
+        "GUID": "{4397A36C-EF62-47B6-9B7C-A7C8305D6DFF}"
+       },
+       {
+        "Id": "3264372200",
+        "Name": "New_Auxiliary_Bus_02",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection\\New_Auxiliary_Bus_02",
+        "GUID": "{F2B99B2D-F5E1-455E-95C7-75C1B3A38A86}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{36F4A775-49A4-47C9-1A5C-251B9D8FC995}"
+ }
+}

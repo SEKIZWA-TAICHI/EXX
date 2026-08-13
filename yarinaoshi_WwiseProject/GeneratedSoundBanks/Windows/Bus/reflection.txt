@@ -1,0 +1,7 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1523149678	reflection			\Default Work Unit\Main Audio Bus\reflection	
+
+Effect plug-ins	ID	Name	Type				Notes
+	569426295	Compressor (Custom)	Wwise Compressor			
+	632183553	Flanger (Custom)	Wwise Flanger			
+

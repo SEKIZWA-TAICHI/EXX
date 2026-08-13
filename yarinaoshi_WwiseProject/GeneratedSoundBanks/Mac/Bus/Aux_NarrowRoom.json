@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2634923776",
+    "Type": "Bus",
+    "GUID": "{996A401B-446B-4D0F-AD04-E97D1AFCD491}",
+    "Language": "SFX",
+    "Hash": "{B51BA94D-6966-E6BA-3AED-A74E51665031}",
+    "ObjectPath": "Aux_NarrowRoom",
+    "ShortName": "Aux_NarrowRoom",
+    "Path": "Bus/Aux_NarrowRoom.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1259256166",
+       "Name": "New_RoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_RoomVerb",
+       "GUID": "{7C05A794-0AEB-4DD7-A9F6-8D4379A5AFB8}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2634923776",
+      "Name": "Aux_NarrowRoom",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Aux_NarrowRoom",
+      "GUID": "{996A401B-446B-4D0F-AD04-E97D1AFCD491}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1259256166"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "373392551",
+        "Name": "New_Auxiliary_Bus",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection\\New_Auxiliary_Bus",
+        "GUID": "{8BC09BB6-437E-42A6-8BD6-6519A5FF9FE6}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C9D46680-414C-3D60-EE07-879E5C71B0B1}"
+ }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28D0818E-5ADA-4CBC-8822-666AF37A83EE}" SchemaVersion="133">
+	<VirtualAcoustics>
+		<WorkUnit Name="Default Work Unit" ID="{28D0818E-5ADA-4CBC-8822-666AF37A83EE}" PersistMode="Standalone">
+			<ChildrenList>
+				<AcousticTexture Name="New_Acoustic_Texture" ID="{EB13B3E1-EE4A-4647-AE1A-D78E4DDEA02A}">
+					<PropertyList>
+						<Property Name="AbsorptionOffset" Type="Real32" Value="71"/>
+					</PropertyList>
+				</AcousticTexture>
+			</ChildrenList>
+		</WorkUnit>
+	</VirtualAcoustics>
+</WwiseDocument>

@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "373392551",
+    "Type": "Bus",
+    "GUID": "{8BC09BB6-437E-42A6-8BD6-6519A5FF9FE6}",
+    "Language": "SFX",
+    "Hash": "{E0C3418B-07A9-164F-29F8-3EA6C374F638}",
+    "ObjectPath": "New_Auxiliary_Bus",
+    "ShortName": "New_Auxiliary_Bus",
+    "Path": "Bus/New_Auxiliary_Bus.bnk",
+    "AuxBusses": [
+     {
+      "Id": "373392551",
+      "Name": "New_Auxiliary_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection\\New_Auxiliary_Bus",
+      "GUID": "{8BC09BB6-437E-42A6-8BD6-6519A5FF9FE6}",
+      "AuxBusRefs": [
+       {
+        "Id": "1523149678",
+        "Name": "reflection",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\reflection",
+        "GUID": "{4397A36C-EF62-47B6-9B7C-A7C8305D6DFF}"
+       },
+       {
+        "Id": "3264372203",
+        "Name": "New_Auxiliary_Bus_01",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Aux_NarrowRoom\\New_Auxiliary_Bus_01",
+        "GUID": "{26D6B947-F6AF-4457-A7FC-52D50F160DDE}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5CBB89D9-194C-A806-A597-26D1E252BF72}"
+ }
+}

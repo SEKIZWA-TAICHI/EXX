@@ -1,0 +1,21 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	373392551	New_Auxiliary_Bus			\Default Work Unit\Main Audio Bus\reflection\New_Auxiliary_Bus	
+	602562200	Aux_WideRoom			\Default Work Unit\Main Audio Bus\Aux_WideRoom	
+	1523149678	reflection			\Default Work Unit\Main Audio Bus\reflection	
+	2634923776	Aux_NarrowRoom			\Default Work Unit\Main Audio Bus\Aux_NarrowRoom	
+	3264372200	New_Auxiliary_Bus_02			\Default Work Unit\Main Audio Bus\reflection\New_Auxiliary_Bus_02	
+	3264372203	New_Auxiliary_Bus_01			\Default Work Unit\Main Audio Bus\Aux_NarrowRoom\New_Auxiliary_Bus_01	
+
+Effect plug-ins	ID	Name	Type				Notes
+	569426295	Compressor (Custom)	Wwise Compressor			
+	632183553	Flanger (Custom)	Wwise Flanger			
+	1259256166	New_RoomVerb	Wwise RoomVerb			
+	2347715673	Wide_Roomverb	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

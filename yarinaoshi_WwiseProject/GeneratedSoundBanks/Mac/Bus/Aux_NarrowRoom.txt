@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2634923776	Aux_NarrowRoom			\Default Work Unit\Main Audio Bus\Aux_NarrowRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1259256166	New_RoomVerb	Wwise RoomVerb			
+

@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3264372203	New_Auxiliary_Bus_01			\Default Work Unit\Main Audio Bus\Aux_NarrowRoom\New_Auxiliary_Bus_01	
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E449718-B8F4-4439-A8B8-32007E29296F}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{2E449718-B8F4-4439-A8B8-32007E29296F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="セミ（本物）" ID="{40CADA8D-6904-4DBE-BE02-E0E125C8BCE2}" ShortID="565553072">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A133FDB9-0EAC-474D-983F-ADAC880E1857}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="セミ（本物）" ID="{83FCEC9A-16D6-4DE4-809B-2E0B47DC04C6}">
+							<Language>SFX</Language>
+							<AudioFile>セミ（本物）.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="52695399"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="セミ（本物）" ID="{83FCEC9A-16D6-4DE4-809B-2E0B47DC04C6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="セミ（偽物）" ID="{F1704106-A29E-4B07-986C-CE59DB2DDB97}" ShortID="673294959">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A133FDB9-0EAC-474D-983F-ADAC880E1857}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="セミ（偽物）" ID="{9355BC17-CF66-48F2-BF61-E0DD2ABB77DA}">
+							<Language>SFX</Language>
+							<AudioFile>セミ（偽物）.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="128050932"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="セミ（偽物）" ID="{9355BC17-CF66-48F2-BF61-E0DD2ABB77DA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ブースター" ID="{4C005786-D08C-47DB-9B64-508B57FC8880}" ShortID="752658265">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Atten_Booster" ID="{2FB013E7-834D-463E-8E79-09BEB1BF2A32}" WorkUnitID="{294FB64B-9E7E-42FF-8366-2B1952A99831}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A133FDB9-0EAC-474D-983F-ADAC880E1857}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="New_Auxiliary_Bus_02" ID="{F2B99B2D-F5E1-455E-95C7-75C1B3A38A86}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="reflection" ID="{4397A36C-EF62-47B6-9B7C-A7C8305D6DFF}" WorkUnitID="{6982D85D-CF02-4916-A5EE-FF3C979E61D8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ブースター_1" ID="{3F4B74BF-CE7A-4CF8-B71B-4F10FF737771}">
+							<Language>SFX</Language>
+							<AudioFile>ブースター.1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="129458366"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ブースター_1" ID="{3F4B74BF-CE7A-4CF8-B71B-4F10FF737771}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

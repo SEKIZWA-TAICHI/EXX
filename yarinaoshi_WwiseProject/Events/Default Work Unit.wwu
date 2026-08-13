@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03DC7BEA-83E8-47FC-8635-E22DD81AA431}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{03DC7BEA-83E8-47FC-8635-E22DD81AA431}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SoundMainsa" ID="{0A75743F-F5E9-419B-8AB8-6041DEA77044}">
+					<ChildrenList>
+						<Action Name="" ID="{3BF2AD15-69BD-40CC-A58F-A35C5F461274}" ShortID="755755752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="セミ（本物）" ID="{40CADA8D-6904-4DBE-BE02-E0E125C8BCE2}" WorkUnitID="{2E449718-B8F4-4439-A8B8-32007E29296F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1B1531B-DFC3-407C-86A7-F3628BF80A04}" ShortID="510841714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ブースター" ID="{4C005786-D08C-47DB-9B64-508B57FC8880}" WorkUnitID="{2E449718-B8F4-4439-A8B8-32007E29296F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
