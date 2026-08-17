@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Enemy_bank" ID="{23D4817C-042B-4D83-8216-9404ACF586A6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enemy" ID="{5E8A4B6E-22C4-46A4-A5C8-80BE6DA4B11E}" WorkUnitID="{03DC7BEA-83E8-47FC-8635-E22DD81AA431}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

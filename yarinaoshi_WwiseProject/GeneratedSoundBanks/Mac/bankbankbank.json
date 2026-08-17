@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{62F6EA7F-051A-4DED-BC2A-6B448283B5DF}",
     "Language": "SFX",
-    "Hash": "{3911AF14-08C5-1DC1-EA64-9085DA4C05B8}",
+    "Hash": "{34EEDF9C-3417-F1F0-554F-EDE7FE3BB2F1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\bankbankbank",
     "ShortName": "bankbankbank",
     "Path": "bankbankbank.bnk",
@@ -30,6 +30,7 @@
       "Name": "SoundMainsa",
       "ObjectPath": "\\Events\\Default Work Unit\\SoundMainsa",
       "GUID": "{0A75743F-F5E9-419B-8AB8-6041DEA77044}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -54,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{36F4A775-49A4-47C9-1A5C-251B9D8FC995}"
+  "FileHash": "{76F5B0BF-E604-C81D-4C96-9FCD961770E4}"
  }
 }

@@ -5,17 +5,21 @@
 			<ChildrenList>
 				<Event Name="SoundMainsa" ID="{0A75743F-F5E9-419B-8AB8-6041DEA77044}">
 					<ChildrenList>
-						<Action Name="" ID="{3BF2AD15-69BD-40CC-A58F-A35C5F461274}" ShortID="755755752">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="セミ（本物）" ID="{40CADA8D-6904-4DBE-BE02-E0E125C8BCE2}" WorkUnitID="{2E449718-B8F4-4439-A8B8-32007E29296F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{F1B1531B-DFC3-407C-86A7-F3628BF80A04}" ShortID="510841714">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ブースター" ID="{4C005786-D08C-47DB-9B64-508B57FC8880}" WorkUnitID="{2E449718-B8F4-4439-A8B8-32007E29296F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy" ID="{5E8A4B6E-22C4-46A4-A5C8-80BE6DA4B11E}">
+					<ChildrenList>
+						<Action Name="" ID="{2533E4D1-03A0-4599-B249-3CB12B032A42}" ShortID="380978353">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy" ID="{B4F7A178-C54D-4AF0-BCC3-817C4F548377}" WorkUnitID="{2E449718-B8F4-4439-A8B8-32007E29296F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

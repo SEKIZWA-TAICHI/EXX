@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2299321487	Enemy			\Default Work Unit\Enemy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	811314335	enemy	.cache\9A\{9ADF701C-482F-BE01-214B-C0EF858C10FF}.wem		\Containers\Default Work Unit\enemy		2696400
+
