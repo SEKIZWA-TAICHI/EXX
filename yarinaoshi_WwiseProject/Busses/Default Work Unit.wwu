@@ -64,16 +64,28 @@
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
-									<EffectSlot Name="" ID="{FDBF0E0C-DAAC-4517-ABF5-9B087243099A}" ShortID="925913674">
+									<EffectSlot Name="" ID="{BCF878C2-A234-4FB3-8B1B-46FE72416A67}" ShortID="710759822">
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom>
-													<Effect Name="RoomVerb (Custom)" ID="{FC100BB1-90A0-443E-AA3C-2AB357DA92D1}" ShortID="53650047" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+													<Effect Name="Compressor (Custom)" ID="{8FFD42A8-0399-41DE-81D0-F7BC0DCE6B53}" ShortID="569426295" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+														<PropertyList>
+															<Property Name="AttackTime" Type="Real32" Value="1.08"/>
+														</PropertyList>
+													</Effect>
 												</Custom>
 											</Reference>
 										</ReferenceList>
 									</EffectSlot>
-									<EffectSlot Name="" ID="{C9C4C2E3-7C4C-434A-A159-DCEA16528040}" ShortID="658438113"/>
+									<EffectSlot Name="" ID="{C9C4C2E3-7C4C-434A-A159-DCEA16528040}" ShortID="658438113">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Flanger (Custom)" ID="{01663A12-6138-4C7C-B6B5-208ABDAC604D}" ShortID="632183553" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
