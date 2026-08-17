@@ -12,7 +12,7 @@
   <Project Path="AK.Wwise.Unity.AddressableInstaller.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="AK.Wwise.Unity.Utilities.csproj" />
-  <Project Path="Ak.Wwise.Api.WAAPI.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Ak.Wwise.Api.WAAPI.csproj" />
   <Project Path="AK.Wwise.Unity.AddressableUpdater.csproj" />
 </Solution>
