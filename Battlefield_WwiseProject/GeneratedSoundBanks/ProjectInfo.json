@@ -1,7 +1,7 @@
 {
  "ProjectInfo": {
   "Project": {
-   "Name": "yarinaoshi_WwiseProject",
+   "Name": "Battlefield_WwiseProject",
    "GUID": "{D8828486-37B8-4EF6-813F-17D33DC6652C}",
    "Generator": "2025.1.9.9197"
   },
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{204A5CC4-AAA0-59D8-88BA-ABA46932CDC5}"
+  "FileHash": "{468611C6-D884-55A1-93C9-8E6BBA14A3F5}"
  }
 }

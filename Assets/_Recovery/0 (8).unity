@@ -2843,13 +2843,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032343900}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11697777, y: -0.88302225, z: 0.32139376, w: 0.32139385}
-  m_LocalPosition: {x: 78.88, y: 24.78, z: -1.21}
+  m_LocalRotation: {x: -0, y: -0, z: -0.026947392, w: 0.99963695}
+  m_LocalPosition: {x: 79.78, y: 6.19, z: -30.6}
   m_LocalScale: {x: 6, y: 8, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 40, y: -140, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.088}
 --- !u!54 &1032343907
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2873,7 +2873,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2974,325 +2974,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae4b82a6138964448a428b63708db52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AC6StylePlayerController
-  keyframes:
-  - time: 0
-    position: {x: 82, y: 6, z: -36}
-    rotation: {x: 0, y: -45, z: 30}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 1
-    position: {x: 82, y: 12, z: 9}
-    rotation: {x: 0, y: -120, z: 30}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 3
-    position: {x: 58, y: 21, z: 12}
-    rotation: {x: 0, y: -180, z: 30}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 4
-    position: {x: 81, y: 21, z: 11}
-    rotation: {x: 0, y: -45, z: 30}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 6
-    position: {x: 79, y: 5, z: -5}
-    rotation: {x: 0, y: 0, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 1
-    arcOffset: {x: 0, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 7
-    position: {x: 76, y: 4, z: -23}
-    rotation: {x: 0, y: -45, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 7.3
-    position: {x: 80, y: 4, z: -15}
-    rotation: {x: 0, y: -45, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 1
-    arcOffset: {x: -8, y: 0, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 0
-  - time: 8
-    position: {x: 76, y: 4, z: 11}
-    rotation: {x: 0, y: -135, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: -1, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 1
-  - time: 9
-    position: {x: 52, y: 8, z: 4}
-    rotation: {x: 0, y: -135, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: -1, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 1
-  - time: 10
-    position: {x: 55, y: 27, z: -8}
-    rotation: {x: 25, y: 30, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: -1, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 1
-  - time: 11.5
-    position: {x: 80, y: 25, z: -1}
-    rotation: {x: 40, y: -140, z: 0}
-    easingCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    movementType: 0
-    arcOffset: {x: 0, y: -1, z: 0}
-    orbitCenter: {x: 0, y: 0, z: 0}
-    orbitAxis: {x: 0, y: 0, z: 0}
-    isClockwise: 1
-  playOnStart: 1
-  isLooping: 0
+  normalSpeed: 30
+  boostSpeed: 65
+  quickBoostImpulse: 80
+  verticalSpeed: 25
+  cameraTransform: {fileID: 0}
+  rotationSpeed: 20
 --- !u!1 &1038783937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4316,7 +4003,6 @@ GameObject:
   - component: {fileID: 1685858121}
   - component: {fileID: 1685858120}
   - component: {fileID: 1685858119}
-  - component: {fileID: 1685858130}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -4350,7 +4036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a493253a6c5659a4496e91d7fe96bf0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjectMemo
-  memo: 
+  memo: "\u30FB\u3044\u308D\u3044\u308D\u97F3\u6E90\u304C\u5FC5\u8981\u3001\u3071\u3063\u3068\u601D\u3044\u3064\u304F\u306E\u306F\u6575\u6A5F\u306E\u30D6\u30FC\u30B9\u30BF\u30FC\u3001AC\u306E\u99C6\u52D5\u97F3\u3001\u30EC\u30FC\u30B6\u30FC\u306E\u97F3\u3001\u885D\u7A81\u97F3\u3001\u63A5\u8FD1\u97F3\u306A\u3069\u306A\u3069\n\u30FB\u4E00\u65E6\u74B0\u5883\u69CB\u7BC9\u306F\u5B8C\u4E86\u3057\u305F\u306E\u3067\u3001C#\u3067\u52D5\u304B\u3057\u3066\u307F\u308B\u306E\u3082\u826F\u3055\u305D\u3046\u3002"
 --- !u!54 &1685858121
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4559,93 +4245,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1685858130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685858118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2edf9bfa106564aa9d47c65f9abb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DogfightAudioController
-  playerTransform: {fileID: 0}
-  enemyEngineAudio: {fileID: 0}
-  duration: 30
-  distanceCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 50
-      inSlope: 0
-      outSlope: 1.6666666
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 30
-      value: 100
-      inSlope: 1.6666666
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  angleCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 180
-      inSlope: 0
-      outSlope: 12
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 30
-      value: 540
-      inSlope: 12
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  heightCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 30
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1707333891
 GameObject:
   m_ObjectHideFlags: 0

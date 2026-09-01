@@ -33,6 +33,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="ブースター_1" ID="{3F4B74BF-CE7A-4CF8-B71B-4F10FF737771}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-6.8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>ブースター.1.wav</AudioFile>
 							<MediaIDList>

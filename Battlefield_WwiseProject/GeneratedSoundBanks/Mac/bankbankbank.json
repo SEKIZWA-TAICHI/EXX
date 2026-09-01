@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
   "SchemaVersion": "16",
   "SoundBankVersion": "172",
   "SoundBanks": [
@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{62F6EA7F-051A-4DED-BC2A-6B448283B5DF}",
     "Language": "SFX",
-    "Hash": "{34EEDF9C-3417-F1F0-554F-EDE7FE3BB2F1}",
+    "Hash": "{204D9773-6C28-6BC0-73D4-3E3D17CB4319}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\bankbankbank",
     "ShortName": "bankbankbank",
     "Path": "bankbankbank.bnk",
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{21693F9C-F90C-A1BA-5861-0E6C69EB2344}"
+  "FileHash": "{3679BA95-6107-924A-089B-8221994057F4}"
  }
 }
