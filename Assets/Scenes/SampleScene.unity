@@ -291,8 +291,8 @@ Transform:
   m_GameObject: {fileID: 139052809}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 29.3, y: 50, z: -12.75}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalPosition: {x: 28.7, y: 50, z: -21.96}
+  m_LocalScale: {x: 115, y: 100, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1315413348}
@@ -999,8 +999,8 @@ Transform:
   m_GameObject: {fileID: 378440381}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 129.5, y: 15.5, z: -12.8}
-  m_LocalScale: {x: 100, y: 30, z: 1}
+  m_LocalPosition: {x: 129.5, y: 15.5, z: -21.7}
+  m_LocalScale: {x: 115, y: 30, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1315413348}
@@ -2303,7 +2303,7 @@ Transform:
   m_GameObject: {fileID: 894819664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 119.2, y: 15.34, z: -63.5}
+  m_LocalPosition: {x: 119.2, y: 15.34, z: -80.2}
   m_LocalScale: {x: 20, y: 30, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2843,13 +2843,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032343900}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11697777, y: -0.88302225, z: 0.32139376, w: 0.32139385}
-  m_LocalPosition: {x: 78.88, y: 24.78, z: -1.21}
-  m_LocalScale: {x: 6, y: 8, z: 6}
+  m_LocalRotation: {x: 0.022665642, y: -0.9763826, z: 0.17216258, w: 0.12854326}
+  m_LocalPosition: {x: 78.85, y: 16.13, z: -43.59}
+  m_LocalScale: {x: 5, y: 6, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 40, y: -140, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: -165, z: 0}
 --- !u!54 &1032343907
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2976,6 +2976,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AC6StylePlayerController
   keyframes:
   - time: 0
+    position: {x: 72, y: 6, z: -30}
+    rotation: {x: 0, y: -40, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 1
+    position: {x: 72, y: 6, z: -35}
+    rotation: {x: 0, y: -40, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 2.3
     position: {x: 82, y: 6, z: -36}
     rotation: {x: 0, y: -45, z: 30}
     easingCurve:
@@ -3007,7 +3071,7 @@ MonoBehaviour:
     orbitCenter: {x: 0, y: 0, z: 0}
     orbitAxis: {x: 0, y: 0, z: 0}
     isClockwise: 0
-  - time: 1
+  - time: 3
     position: {x: 82, y: 12, z: 9}
     rotation: {x: 0, y: -120, z: 30}
     easingCurve:
@@ -3021,7 +3085,7 @@ MonoBehaviour:
     orbitCenter: {x: 0, y: 0, z: 0}
     orbitAxis: {x: 0, y: 0, z: 0}
     isClockwise: 0
-  - time: 3
+  - time: 3.5
     position: {x: 58, y: 21, z: 12}
     rotation: {x: 0, y: -180, z: 30}
     easingCurve:
@@ -3260,8 +3324,296 @@ MonoBehaviour:
     orbitAxis: {x: 0, y: 0, z: 0}
     isClockwise: 1
   - time: 11.5
-    position: {x: 80, y: 25, z: -1}
+    position: {x: 88, y: 9, z: -46}
     rotation: {x: 40, y: -140, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 12.5
+    position: {x: 68, y: 7, z: -27}
+    rotation: {x: 0, y: -100, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 13
+    position: {x: 88, y: 9, z: -46}
+    rotation: {x: 0, y: -100, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 13.2
+    position: {x: 88, y: 9, z: -46}
+    rotation: {x: 2, y: -110, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 14.2
+    position: {x: 91, y: 7, z: -32}
+    rotation: {x: 3, y: -145, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 14.4
+    position: {x: 85, y: 20, z: -26.5}
+    rotation: {x: 3, y: -175, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 16
+    position: {x: 64.3, y: 25.1, z: -57.4}
+    rotation: {x: 10, y: -245, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 16.3
+    position: {x: 75, y: 15, z: -20}
+    rotation: {x: 10, y: -245, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 17
+    position: {x: 79, y: 16, z: -43.5}
+    rotation: {x: 20, y: -165, z: 0}
+    easingCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementType: 0
+    arcOffset: {x: 0, y: -1, z: 0}
+    orbitCenter: {x: 0, y: 0, z: 0}
+    orbitAxis: {x: 0, y: 0, z: 0}
+    isClockwise: 1
+  - time: 30
+    position: {x: 79, y: 16, z: -43.5}
+    rotation: {x: 20, y: -165, z: 0}
     easingCurve:
       serializedVersion: 2
       m_Curve:
@@ -3789,8 +4141,8 @@ Transform:
   m_GameObject: {fileID: 1433891718}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 77.9, y: 0, z: -12.8}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalPosition: {x: 77.9, y: 0, z: -21.9}
+  m_LocalScale: {x: 120, y: 110, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1315413348}
@@ -3930,7 +4282,7 @@ Transform:
   m_GameObject: {fileID: 1434797894}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 69.2, y: 41, z: -63.5}
+  m_LocalPosition: {x: 69.2, y: 41, z: -80.1}
   m_LocalScale: {x: 80, y: 80, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4185,7 +4537,7 @@ Transform:
   m_GameObject: {fileID: 1480681054}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 129.4, y: 28.8, z: -129.5}
+  m_LocalPosition: {x: 129.4, y: 28.8, z: -145.8}
   m_LocalScale: {x: 130, y: 200, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5239,8 +5591,8 @@ Transform:
   m_GameObject: {fileID: 1842583117}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 80.2, y: 80, z: -12.75}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalPosition: {x: 80.2, y: 80, z: -19.96}
+  m_LocalScale: {x: 115, y: 100, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1315413348}
